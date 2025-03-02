@@ -1,0 +1,52 @@
+.TodoItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.TodoItem input{
+    width: 20px;
+}
+
+.TodoItem .content{
+    flex: 1;
+}
+
+.TodoItem .contentInput{
+    border: none;
+    border-radius: 5px;
+    font-size:16px;
+    color: rgb(255, 111, 58);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.TodoItem .contentInput:focus{
+    outline: none;
+}
+
+.TodoItem .done{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.TodoItem .date{
+    font-size: 14px;
+    color: gray;
+}
+
+.TodoItem button{
+    cursor: pointer;
+    color: gray;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.TodoItem .updateBtn{
+    background-color: rgb(224, 255, 224);
+    color: rgb(91, 119, 91);
+}
